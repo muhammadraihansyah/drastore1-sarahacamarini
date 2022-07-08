@@ -1,0 +1,388 @@
+.navbar-brand{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.nav-item {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.nav-item .nav-link.active {
+    font-weight: 600;
+    color: #ffd279 !important;
+}
+
+.nav-link {
+    color: #d8acac !important
+}
+.nav-link:hover {
+    color: #fcbb3a !important;
+}
+
+/* Hero Section */
+.hero-section {
+    margin-top: 45px;
+}
+.hero-section h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 38px;
+}
+
+.hero-section p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.hero-section .btn-cta {
+    margin-top: 80px;
+}
+.hero-section .img-banner {
+    margin-left: 105px;
+    width: 430px;
+}
+
+.hero-section .btn-cta img{
+    width: 67px;
+}
+
+.hero-section .btn {
+    border-radius: 0px 18px 18px 0px;;
+    margin-left: 8px;
+}   
+/* Akhir Hero Section */
+
+.section-title {
+    border-bottom: 3px solid #fcbb3a;
+    width: 8%;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* Categories */
+
+.tag {
+    z-index: 3;
+    background-color: #FCBB3A;
+    padding: .25rem 1.25rem;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    border-radius: 0px 20px;
+    min-height: 30px;
+}
+
+.tag span {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+
+}
+.categories-thumbnail {
+    width: 100%;
+    height: 386px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.categories-thumbnail:hover .categories-img {
+    transform: scale(1,1);
+}
+
+.categories-img {
+    width: 100%;
+    height: 130%;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    transition: all 0.3s ease;
+}
+
+/* Tutup Categories */
+
+/* Popular Products */
+.popular-products {
+    background: rgba(23,25, 56, 0.06);
+    padding-top: 50px;
+    padding-bottom: 36px;
+}
+
+.component-products {
+    margin-bottom: 20px;
+    margin-top: 50px;
+    background: #ffff;
+    border-radius: 8px;
+    border: #000;
+    padding-bottom: 15px;
+    transition: all 0.2s ease-in-out;
+
+    
+}
+
+.component-products :hover {
+    text-decoration: none;
+    transform: scale(1.1);
+
+}
+.products-img {
+    padding: 0.5rem;
+    border-radius: 0px 8px;
+    background: #F6FAFD;
+    text-align: center;
+
+    transition: all 0.3s ease;
+}
+.products-text {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #171938;
+}
+.products-price {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color:yellow;
+}
+/* review */
+.testimonial {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.testimonial-text {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #000000;
+}
+
+.testimonial-name {
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: rgba(0, 0, 0, 0.29);
+    
+    
+
+}
+
+.btn-testimonial {
+    background-color: #FFBD37;
+
+    width: 150px;
+    height: 38px;
+    transition: all 0.3s ease;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 170%;
+    
+}
+
+.btn-testimonial:hover {
+    box-shadow: 0px 8px 15px rgba(50, 82, 223, 0.3);
+    border-radius: 4px;
+
+    
+    transform: scale(1.1);
+}
+
+
+
+/* tutup review */
+
+/* footer */
+.footer-top {
+    margin-top: 100px;
+}
+/* tutup footer */
+
+/* Breadcrumb */
+.breadcrumb {
+    margin-top: 102px;
+}
+
+/* Tutup Breadcrumb */
+
+
+/* Foto Product */
+.foto-product {
+    margin-top: 50px;
+}
+
+.foto-product .img-5 img {
+    width: 805px;
+    height: 670px;
+}
+
+.foto-product .img-1 {
+    width: 212px;
+    height: 124px;
+    margin-left: 135px;
+    margin-bottom: 50px;
+}
+
+.foto-product .img-2 {
+    width: 212px;
+    height: 124px;
+    margin-left: 135px;
+    margin-bottom: 50px;
+}
+
+.foto-product .img-3 {
+    width: 212px;
+    height: 124px;
+    margin-left: 135px;
+    margin-bottom: 50px;
+}
+
+.foto-product .img-4 {
+    width: 212px;
+    height: 124px;
+    margin-left: 135px;
+    margin-bottom: 50px;
+}
+/* Tutup Foto Product */
+
+/* Deskripsi Product */
+.deskripsi-product {
+    margin-top: 86px;
+}
+
+.deskripsi-product h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+.deskripsi-product p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+/* Tutup Deskripsi Product */
+
+/* Tittle */
+.tittle {
+    margin-top: 131px;
+}
+
+.tittle h1 {
+    margin-top: 79px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 72px;
+}
+.tittle p {
+    margin-top: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+/* Tutup Tittle */
+
+/* Form Data Costumer */
+.form-data .img-1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.form-data {
+    margin-top: 50px;
+}
+.form-data .img-1 {
+    width: 500px;
+    height: 413px;
+    margin-top: 75px;
+}
+
+
+
+.form-data th {
+        font-family: Poppins;
+        font-style :normal;
+        font-weight : 400 ;
+        font-size : 24px;
+    }
+    
+
+.form-data p {
+    margin-top: 10px;
+}
+
+
+
+.form-data .btn-cta {
+    margin-left: 15px;
+    margin-top: 50PX;
+  
+}
+
+.form-data .btn-cta .btn-cta1 {
+    width: 484px;
+    height: 80px;
+    margin-bottom: 50px;
+}
+.form-data .btn-cta .btn-cta2 {
+    margin-top: 10px;
+}
+
+.form-data .form-group {
+    margin-top: 75px;
+}
+
+
+/* Tutup Form Data Costumer */
+
+/* Foto Finish */
+.foto-finish p {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+margin-top: 50px;
+}
+
+
+.foto-finish .btn-cta {
+    margin-left: 400px;
+    margin-top: 50px;
+}
+/* Tutup Foto Finish */
